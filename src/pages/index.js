@@ -21,10 +21,16 @@ const IndexPage = () => {
       <div className="mb-0 mx-auto px-4 md:px-12">
         <h2>
           <Link
-            to="/product"
+            to="product"
             className="text-lg font-bold hover:underline text-gray-700 uppercase"
           >
             Product List
+          </Link>
+          <Link
+            to="coming_soon"
+            className="ml-4 text-lg font-bold hover:underline text-gray-700 uppercase"
+          >
+            Click here to new page
           </Link>
         </h2>
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
